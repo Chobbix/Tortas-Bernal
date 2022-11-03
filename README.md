@@ -1,2 +1,2 @@
 # Tortas Bernal
-ajsdhkjasdhssssxx
+Proyecto pequeño enfocado a un establecimiento de tortas
