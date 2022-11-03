@@ -1,0 +1,75 @@
+
+ul.menu {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    background-color: rgba(0, 134, 134, .7);
+    border-bottom-style: solid;
+    border-color: white;
+
+    li {
+        a {
+            float:left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 40px;
+            text-decoration: none;
+            border-radius: 8px;
+            font-family: verdana-pro-black;
+            font-weight: bold;
+            font-size: 20px; 
+        }
+
+        a.opc { 
+            margin-top: 45px; 
+            margin-left: 20px; 
+            margin-right: 20px;
+        }
+
+        a:hover {
+            background-color: rgb(104, 104, 104);
+            border-bottom-style: solid;
+        }
+    }
+}
+
+div.info {
+    background-color: rgba(7, 7, 7, .8);
+    max-width: 85%;
+    height: auto;
+    margin: 0 auto;
+    padding: 1%;
+    border-radius: 25px;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#perfil {
+    float:right;
+}
+
+#logo {
+    width: 100px;
+    height: auto;
+}
+
+#Torta_Inicio {
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    float: center;
+    border-radius: 50px;
+}
+
+@media screen and (max-width: 1094px) {
+    ul.menu li.right, 
+    ul.menu li a {float: none;}
+    ul.menu li a.opc {margin-top: 0px;}
+}
