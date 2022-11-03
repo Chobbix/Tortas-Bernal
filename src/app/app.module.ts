@@ -11,6 +11,7 @@ import { OrderComponent } from './order/order.component';
 import { ConfirmOrderComponent } from './confirm-order/confirm-order.component';
 import { RegisterComponent } from './register/register.component';
 import { LocalsComponent } from './locals/locals.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { LocalsComponent } from './locals/locals.component';
     OrderComponent,
     ConfirmOrderComponent,
     RegisterComponent,
-    LocalsComponent
+    LocalsComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
